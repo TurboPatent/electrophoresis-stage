@@ -1,0 +1,4 @@
+{
+  "term": "pure base",
+  "definition": "assignment mode for a base caller, where the base caller determines an A, C, G, and T to a position instead of a variable."
+}

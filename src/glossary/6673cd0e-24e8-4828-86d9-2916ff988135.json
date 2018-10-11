@@ -1,0 +1,4 @@
+{
+  "term": "base spacing",
+  "definition": "the number of data points from one peak to the next. A negative\nspacing value or a spacing value shown in red indicates a problem\nwith your samples, and/or the analysis parameters."
+}

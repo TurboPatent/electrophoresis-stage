@@ -1,0 +1,4 @@
+{
+  "term": "image signal",
+  "definition": "a number that indicates the intensity of the fluorescence from one\nof the dyes used to identify bases during a data run. Signal strength\nnumbers are shown in the Annotation view of the sample file."
+}

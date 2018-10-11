@@ -1,0 +1,4 @@
+{
+  "term": "quality values",
+  "definition": "an estimate (or prediction) of the likelihood that a given basecall is in error. Typically, the quality value is scaled following the convention established by the phred program: QV = –10 log10(Pe), where Pe stands for the estimated probability that the call is in error. Quality values are a measure of the certainty of the base calling and consensus-calling algorithms. Higher values correspond to lower chance of algorithm error. Sample quality values refer to the perbase quality values for a sample, and consensus quality values are per-consensus quality values."
+}

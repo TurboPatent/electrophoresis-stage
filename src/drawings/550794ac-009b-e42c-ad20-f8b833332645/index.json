@@ -1,0 +1,550 @@
+{
+  "isLandscape": false,
+  "drawingData": {
+    "cells": [
+      {
+        "type": "tp.Element",
+        "shape": "numberLabel",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "<p>CE process</p>",
+        "position": {
+          "x": 603.2785453796387,
+          "y": 17.875
+        },
+        "size": {
+          "width": 28.346454620361328,
+          "height": 28.346454620361328
+        },
+        "angle": 0,
+        "label": "",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "only",
+        "id": "b9125d8b-ee54-40f2-b88a-7248cfce790b",
+        "z": 1,
+        "objectID": "810c4022-0bdb-057c-f945-65f724ba8ba2",
+        "number": 0
+      },
+      {
+        "type": "tp.Element",
+        "shape": "textboxLabel",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 229,
+          "y": 821
+        },
+        "size": {
+          "width": 116,
+          "height": 46
+        },
+        "angle": 0,
+        "label": "<p>(PRIOR ART)</p>",
+        "strokeStyle": "none",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "cfb24448-727e-07ed-2942-edfafb7cd662",
+        "z": 3,
+        "labelLayout": {
+          "labelBoxWidth": 105.8609390258789,
+          "fullString": "(PRIOR ART)",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "(PRIOR ART)",
+              "width": 72.63546752929688,
+              "x": 16.612735748291016,
+              "y": 10.402260150146486
+            }
+          ],
+          "textWidth": 72.63546752929688,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "9a635cd9-4cb1-9a9c-e7a1-37953dd4b837"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "block",
+        "position": {
+          "x": 196,
+          "y": 147
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 47.590958606910604
+        },
+        "angle": 0,
+        "label": "<p>load fluorescently labeled&nbsp;sample into instrument</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "baca79b4-da53-49de-a0e8-444b4c7453de",
+        "z": 4,
+        "labelLayout": {
+          "labelBoxWidth": 219.21258544921875,
+          "fullString": "LOAD FLUORESCENTLY LABELED SAMPLE INTO INSTRUMENT 504",
+          "endPad": 7.46217155456543,
+          "lines": [
+            {
+              "text": "LOAD FLUORESCENTLY LABELED",
+              "width": 188.91407775878906,
+              "x": 15.149253845214844,
+              "y": -0.03920299682616957
+            },
+            {
+              "text": "SAMPLE INTO INSTRUMENT 504",
+              "width": 192.29441833496094,
+              "x": 13.459083557128906,
+              "y": 20.960834503173828
+            }
+          ],
+          "textWidth": 192.29441833496094,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "e7162c7f-c81b-145a-8c01-a479c04b2eba",
+        "number": 4
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "block",
+        "position": {
+          "x": 195,
+          "y": 53
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 47.59121135855269
+        },
+        "angle": 0,
+        "label": "<p>configure instrument parameters</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "3d9f6e5b-cd02-42f0-bf54-88cfbb630cb7",
+        "z": 5,
+        "labelLayout": {
+          "labelBoxWidth": 219.21258544921875,
+          "fullString": "CONFIGURE INSTRUMENT PARAMETERS 502",
+          "endPad": 7.46217155456543,
+          "lines": [
+            {
+              "text": "CONFIGURE INSTRUMENT",
+              "width": 156.21360778808594,
+              "x": 31.499488830566406,
+              "y": -0.03907711181640394
+            },
+            {
+              "text": "PARAMETERS 502",
+              "width": 104.20616912841797,
+              "x": 57.50320816040039,
+              "y": 20.960960388183594
+            }
+          ],
+          "textWidth": 156.21360778808594,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "4af32fdf-e17a-d916-5eb0-a7c0e71b2a4a",
+        "number": 2
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "3d9f6e5b-cd02-42f0-bf54-88cfbb630cb7"
+        },
+        "target": {
+          "id": "baca79b4-da53-49de-a0e8-444b4c7453de"
+        },
+        "id": "0e83a44c-ecca-4ed7-b3c6-de1c674d6406",
+        "embeds": "",
+        "z": 6,
+        "routing": "straight",
+        "objectID": "1309b080-5c89-a92b-8056-26ce1627b34b",
+        "label": " ",
+        "name": " "
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "block",
+        "position": {
+          "x": 196,
+          "y": 358.0840133416913
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 89.6388136315488
+        },
+        "angle": 0,
+        "label": "<p>detect fluorescent signal from fluorescently labled sample passing through optical sensor</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "2981f3bb-e016-426c-948e-1ea322725955",
+        "z": 7,
+        "labelLayout": {
+          "labelBoxWidth": 219.21258544921875,
+          "fullString": "DETECT FLUORESCENT SIGNAL FROM FLUORESCENTLY LABLED SAMPLE PASSING THROUGH OPTICAL SENSOR 508",
+          "endPad": 7.46217155456543,
+          "lines": [
+            {
+              "text": "DETECT FLUORESCENT SIGNAL",
+              "width": 181.78904724121094,
+              "x": 18.711769104003906,
+              "y": -0.015318530273432884
+            },
+            {
+              "text": "FROM FLUORESCENTLY LABLED",
+              "width": 186.8094024658203,
+              "x": 16.20159149169922,
+              "y": 20.984718969726565
+            },
+            {
+              "text": "SAMPLE PASSING THROUGH",
+              "width": 170.0446014404297,
+              "x": 24.58399200439453,
+              "y": 41.98475646972656
+            },
+            {
+              "text": "OPTICAL SENSOR 508",
+              "width": 128.25096130371094,
+              "x": 45.480812072753906,
+              "y": 62.98479396972656
+            }
+          ],
+          "textWidth": 186.8094024658203,
+          "textHeight": 84.00014999999999
+        },
+        "objectID": "2c6653a0-29b3-669c-a98c-f58d9ea72461",
+        "number": 8
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "baca79b4-da53-49de-a0e8-444b4c7453de"
+        },
+        "target": {
+          "id": "5a7d8600-dd6d-48b0-9cb9-690a161029f6"
+        },
+        "id": "5e3eb9af-dd7f-4e1d-9a5e-70752e0ccf75",
+        "z": 8,
+        "objectID": "3bb99a99-c3d0-1465-bc49-f111fdf17198",
+        "label": " ",
+        "name": " "
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "block",
+        "position": {
+          "x": 196,
+          "y": 240.91573390666662
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 68.62553790587567
+        },
+        "angle": 0,
+        "label": "<p>apply voltage from power source to eletrodes in buffer</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "5a7d8600-dd6d-48b0-9cb9-690a161029f6",
+        "z": 9,
+        "labelLayout": {
+          "labelBoxWidth": 219.21258544921875,
+          "fullString": "APPLY VOLTAGE FROM POWER SOURCE TO ELETRODES IN BUFFER 506",
+          "endPad": 7.46217155456543,
+          "lines": [
+            {
+              "text": "APPLY VOLTAGE FROM POWER",
+              "width": 179.4748077392578,
+              "x": 19.86888885498047,
+              "y": -0.021933538818355913
+            },
+            {
+              "text": "SOURCE TO ELETRODES IN BUFFER",
+              "width": 207.25521850585938,
+              "x": 5.9786834716796875,
+              "y": 20.978103961181642
+            },
+            {
+              "text": "506",
+              "width": 22.386510848999023,
+              "x": 98.41303730010986,
+              "y": 41.978141461181636
+            }
+          ],
+          "textWidth": 207.25521850585938,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "218387df-8b01-0f32-68a7-23be55dd34bd",
+        "number": 6
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "5a7d8600-dd6d-48b0-9cb9-690a161029f6"
+        },
+        "target": {
+          "id": "2981f3bb-e016-426c-948e-1ea322725955"
+        },
+        "id": "93a8f89c-d095-4605-ad98-36c576f6dc91",
+        "z": 10,
+        "objectID": "762c8a82-269c-67a0-c1ff-351d105d03ba",
+        "label": " ",
+        "name": " "
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "block",
+        "position": {
+          "x": 196,
+          "y": 496.2655685023891
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 68.625211073579
+        },
+        "angle": 0,
+        "label": "<p>aggregate raw image data from optical sensor at computing device</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "83985904-2236-4c83-8add-1fa0ce97d6fa",
+        "z": 11,
+        "labelLayout": {
+          "labelBoxWidth": 219.21258544921875,
+          "fullString": "AGGREGATE RAW IMAGE DATA FROM OPTICAL SENSOR AT COMPUTING DEVICE 510",
+          "endPad": 7.46217155456543,
+          "lines": [
+            {
+              "text": "AGGREGATE RAW IMAGE DATA FROM",
+              "width": 217.50543212890625,
+              "x": 0.85357666015625,
+              "y": -0.022093756103512163
+            },
+            {
+              "text": "OPTICAL SENSOR AT COMPUTING",
+              "width": 198.71792602539062,
+              "x": 10.247329711914062,
+              "y": 20.977943743896486
+            },
+            {
+              "text": "DEVICE 510",
+              "width": 68.2437744140625,
+              "x": 75.48440551757812,
+              "y": 41.97798124389648
+            }
+          ],
+          "textWidth": 217.50543212890625,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "21a80ffc-0d9f-f838-8b55-3670df8a6bfb",
+        "number": 10
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "2981f3bb-e016-426c-948e-1ea322725955"
+        },
+        "target": {
+          "id": "83985904-2236-4c83-8add-1fa0ce97d6fa"
+        },
+        "id": "afe89ea9-4fbd-41a2-adac-a01d1d6a64f9",
+        "z": 12,
+        "objectID": "cb8381cd-4a3d-6d13-3753-294ddf89c1c5",
+        "label": " ",
+        "name": " "
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "block",
+        "position": {
+          "x": 196,
+          "y": 613.433521105117
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 26.71322247802708
+        },
+        "angle": 0,
+        "label": "<p>process <span data-role=\"tag\" data-value=\"10f20744-44e4-1591-695c-aba7a5210d27\" id=\"id08c13548-748b-3bf3-9a22-e263b66937ac\" data-type=\"term\">sample data</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "e46a9b37-cf09-4b02-8bc7-460862a7bf3f",
+        "z": 13,
+        "labelLayout": {
+          "labelBoxWidth": 219.21258544921875,
+          "fullString": "PROCESS SAMPLE DATA 512",
+          "endPad": 7.46217155456543,
+          "lines": [
+            {
+              "text": "PROCESS SAMPLE DATA 512",
+              "width": 164.13131713867188,
+              "x": 27.540634155273438,
+              "y": 0.02194723052978631
+            }
+          ],
+          "textWidth": 164.13131713867188,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "6e43357c-6e1f-f7f9-78ef-0999f2c85787",
+        "number": 12
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "83985904-2236-4c83-8add-1fa0ce97d6fa"
+        },
+        "target": {
+          "id": "e46a9b37-cf09-4b02-8bc7-460862a7bf3f"
+        },
+        "id": "c44042a4-bd80-49d0-93d0-53ed24a8b7f2",
+        "z": 14,
+        "objectID": "3cb07477-4997-5d95-c239-ad6dacd50fd0",
+        "label": " ",
+        "name": " "
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "block",
+        "position": {
+          "x": 196,
+          "y": 688.6894851122931
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 68.62521259654712
+        },
+        "angle": 0,
+        "label": "<p>display processed data as&nbsp;electropherogram in display device</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "e23020e7-1bc8-4e37-8968-47ccb5e00440",
+        "z": 15,
+        "labelLayout": {
+          "labelBoxWidth": 219.21258544921875,
+          "fullString": "DISPLAY PROCESSED DATA AS ELECTROPHEROGRAM IN DISPLAY DEVICE 514",
+          "endPad": 7.46217155456543,
+          "lines": [
+            {
+              "text": "DISPLAY PROCESSED DATA AS",
+              "width": 170.88278198242188,
+              "x": 24.164901733398438,
+              "y": -0.022093756103512163
+            },
+            {
+              "text": "ELECTROPHEROGRAM IN DISPLAY",
+              "width": 200.1028289794922,
+              "x": 9.554878234863281,
+              "y": 20.977943743896486
+            },
+            {
+              "text": "DEVICE 514",
+              "width": 68.2437744140625,
+              "x": 75.48440551757812,
+              "y": 41.97798124389648
+            }
+          ],
+          "textWidth": 200.1028289794922,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "887380a8-722c-81d9-22ef-49f56e8bc18b",
+        "number": 14
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "e46a9b37-cf09-4b02-8bc7-460862a7bf3f"
+        },
+        "target": {
+          "id": "e23020e7-1bc8-4e37-8968-47ccb5e00440"
+        },
+        "id": "9e115c44-3002-4764-9db0-7e7f4aae58cd",
+        "z": 16,
+        "objectID": "aa3b54ed-3ccb-9672-24a9-a07532e433d7",
+        "label": " ",
+        "name": " "
+      }
+    ]
+  }
+}
