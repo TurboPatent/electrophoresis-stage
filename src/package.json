@@ -16,12 +16,12 @@
       "glossaryCount": 25
     },
     "briefDescriptions": [
-      "<p><b>Fig. 1</b> illustrates a <span data-role=\"tag\" data-value=\"d4c64932-3296-ea3b-902a-58c4f70de4ec\" id=\"id4fe1e753-2e80-55e1-aeee-f7f42dee4273\" data-type=\"drawingObject\">CE device 100</span> in accordance with one embodiment.</p>",
-      "<p><b>Fig. 2</b> illustrates a <span data-role=\"tag\" data-value=\"9ebee363-cb05-9082-d7c5-c4f16f6c1602\" id=\"id1a203de1-404e-8c3b-4b75-d9bcf92422f0\" data-type=\"drawingObject\">CE device 200</span> in accordance with one embodiment.</p>",
-      "<p><b>Fig. 3</b> illustrates a <span data-role=\"tag\" data-value=\"80a3d5fd-d121-42f0-5a2c-04219a7956cf\" id=\"idbf2ca85e-4135-4763-3b0a-1d4bab453e82\" data-type=\"drawingObject\">CE system 300</span> in accordance with one embodiment.</p>",
-      "<p><b>Fig. 4</b> illustrates a <span data-role=\"tag\" data-value=\"a70ac5ce-cd73-32aa-5a2b-e1f1e5a5dc68\" id=\"id959c82f5-2043-feea-5dd5-61b605b7fff2\" data-type=\"drawingObject\">CE process 400</span> in accordance with one embodiment.</p>",
-      "<p><b>Fig. 5</b> illustrates a <span data-role=\"tag\" data-value=\"810c4022-0bdb-057c-f945-65f724ba8ba2\" id=\"ida2cba23e-dbd0-38f1-e5b8-cc6f43d474b1\" data-type=\"drawingObject\">CE process 500</span> in accordance with one embodiment.</p>",
-      "<p><b>Fig. 6</b> illustrates a <span data-role=\"tag\" data-value=\"8d474cf6-5de2-5fef-ec79-43097fdcedb8\" id=\"id638cc567-513f-f953-2a53-ce8a25bac9d3\" data-type=\"drawingObject\">sequencing data 600</span> in accordance with one embodiment.</p>"
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"d4c64932-3296-ea3b-902a-58c4f70de4ec\" id=\"id4fe1e753-2e80-55e1-aeee-f7f42dee4273\" data-type=\"drawingObject\">CE device 100</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"9ebee363-cb05-9082-d7c5-c4f16f6c1602\" id=\"id1a203de1-404e-8c3b-4b75-d9bcf92422f0\" data-type=\"drawingObject\">CE device 200</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"80a3d5fd-d121-42f0-5a2c-04219a7956cf\" id=\"idbf2ca85e-4135-4763-3b0a-1d4bab453e82\" data-type=\"drawingObject\">CE system 300</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"a70ac5ce-cd73-32aa-5a2b-e1f1e5a5dc68\" id=\"id959c82f5-2043-feea-5dd5-61b605b7fff2\" data-type=\"drawingObject\">CE process 400</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"810c4022-0bdb-057c-f945-65f724ba8ba2\" id=\"ida2cba23e-dbd0-38f1-e5b8-cc6f43d474b1\" data-type=\"drawingObject\">CE process 500</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"8d474cf6-5de2-5fef-ec79-43097fdcedb8\" id=\"id638cc567-513f-f953-2a53-ce8a25bac9d3\" data-type=\"drawingObject\">sequencing data 600</span> in accordance with one embodiment.</p>"
     ],
     "parts": [
       {
