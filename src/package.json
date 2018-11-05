@@ -6,7 +6,7 @@
     "type": "organization"
   },
   "license": "MIT",
-  "isPrivate": false,
+  "private": false,
   "details": {
     "counts": {
       "termCount": 29,
@@ -270,136 +270,136 @@
       }
     ],
     "terms": [
-      "width curve",
-      "quality values",
-      "5' end",
+      "average peak",
+      "sample data",
       "plasmid",
       "polymerase",
-      "image signal",
       "mixed base",
-      "single nucleotide polymorphism",
-      "sample data",
-      "polymerase slippage",
-      "spacing curve",
+      "noise",
+      "capillary electrophoresis genetic analyzer",
+      "raw data",
+      "basecall",
+      "primer",
+      "amplicon",
       "variant",
+      "base pair",
+      "3' end",
+      "single nucleotide polymorphism",
+      "quality values",
+      "width curve",
       "heterozygous insertion deletion variant",
       "average peak width",
-      "amplicon",
-      "3' end",
       "Sanger Sequencer",
       "mobility shift",
-      "base spacing",
-      "base pair",
-      "pure base",
-      "primer",
-      "average peak",
-      "noise",
-      "basecall",
-      "relative fluoresce unit",
+      "spacing curve",
+      "5' end",
+      "image signal",
       "n-1 peak",
-      "raw data",
-      "capillary electrophoresis genetic analyzer"
+      "pure base",
+      "polymerase slippage",
+      "relative fluoresce unit",
+      "base spacing"
     ],
     "glossary": [
       {
-        "term": "Sanger Sequencer",
-        "definition": "a DNA sequencing process that takes advantage of the ability of DNA polymerase to incorporate 2´,3´-dideoxynucleotides—nucleotide base analogs that lack the 3´-hydroxyl group essential in phosphodiester bond formation. Sanger dideoxy sequencing requires a DNA template, a sequencing primer, DNA polymerase, deoxynucleotides (dNTPs), dideoxynucleotides (ddNTPs), and reaction buffer. Four separate reactions are set up, each containing radioactively labeled nucleotides and either ddA, ddC, ddG, or ddT. The annealing, labeling, and termination steps are performed on separate heat blocks. DNA synthesis is performed at 37°C, the temperature at which DNA polymerase has the optimal enzyme activity. DNA polymerase adds a deoxynucleotide or the corresponding 2´,3´-dideoxynucleotide at each step of chain extension. Whether a deoxynucleotide or a dideoxynucleotide is added depends on the relative concentration of both molecules. When a deoxynucleotide (A, C, G, or T) is added to the 3´ end, chain extension can continue. However, when a dideoxynucleotide (ddA, ddC, ddG, or ddT) is added to the 3´ end, chain extension 4 DNA Sequencing by Capillary terminates . Sanger dideoxy sequencing results in the formation of extension products of various lengths terminated with dideoxynucleotides at the 3´ end."
-      },
-      {
-        "term": "separation or sieving media",
-        "definition": "include gels, however non-gel liquid polymers such as linear polyacrylamide, hydroxyalkylcellulose (HEC), agarose, and cellulose acetate, and the like can be used. Other separation media that can be used for capillary electrophoresis include, but are not limited to, water soluble polymers such as poly(N,N′-dimethylacrylamide)(PDMA), polyethylene glycol (PEG), poly(vinylpyrrolidone) (PVP), polyethylene oxide, polysaccharides and pluronic polyols; various poly(vinylalcohol) (PVAL)-related polymers, polyether-water mixture, lyotropic polymer liquid crystals, among others."
-      },
-      {
-        "term": "sample data",
-        "definition": "the output of a single lane or capillary on a sequencing instrument. Sample data is entered into Sequencing Analysis, SeqScape, and other sequencing analysis software."
-      },
-      {
-        "term": "quality values",
-        "definition": "an estimate (or prediction) of the likelihood that a given basecall is in error. Typically, the quality value is scaled following the convention established by the phred program: QV = –10 log10(Pe), where Pe stands for the estimated probability that the call is in error. Quality values are a measure of the certainty of the base calling and consensus-calling algorithms. Higher values correspond to lower chance of algorithm error. Sample quality values refer to the perbase quality values for a sample, and consensus quality values are per-consensus quality values."
-      },
-      {
-        "term": "pure base",
-        "definition": "assignment mode for a base caller, where the base caller determines an A, C, G, and T to a position instead of a variable."
+        "term": "relative fluoresce unit",
+        "definition": "measurements in electrophoresis methods, such as for DNA analysis. A \"relative fluorescence unit\" is a unit of measurement used in analysis which employs fluorescence detection."
       },
       {
         "term": "plasmid",
         "definition": "a genetic structure in a cell that can replicate independently of the chromosomes, typically a small circular DNA strand in the cytoplasm of a bacterium or protozoan. Plasmids are much used in the laboratory manipulation of genes."
       },
       {
-        "term": "primer",
-        "definition": "A short single strand of DNA that serves as the priming site for DNA polymerase in a PCR reaction."
-      },
-      {
-        "term": "image signal",
-        "definition": "a number that indicates the intensity of the fluorescence from one\nof the dyes used to identify bases during a data run. Signal strength\nnumbers are shown in the Annotation view of the sample file."
-      },
-      {
-        "term": "relative fluoresce unit",
-        "definition": "measurements in electrophoresis methods, such as for DNA analysis. A \"relative fluorescence unit\" is a unit of measurement used in analysis which employs fluorescence detection."
-      },
-      {
-        "term": "single nucleotide polymorphism",
-        "definition": "a variation in a single base pair in a DNA sequence."
-      },
-      {
-        "term": "beam search",
-        "definition": "a heuristic search algorithm that explores a graph by expanding the most promising node in a limited set. Beam search is an optimization of best-first search that reduces its memory requirements. Best-first search is a graph search which orders all partial solutions (states) according to some heuristic. But in beam search, only a predetermined number of best partial solutions are kept as candidates.[1] It is thus a greedy algorithm.\nBeam search uses breadth-first search to build its search tree. At each level of the tree, it generates all successors of the states at the current level, sorting them in increasing order of heuristic cost.[2] However, it only stores a predetermined number, β, of best states at each level (called the beam width). Only those states are expanded next. The greater the beam width, the fewer states are pruned. With an infinite beam width, no states are pruned and beam search is identical to breadth-first search. The beam width bounds the memory required to perform the search. Since a goal state could potentially be pruned, beam search sacrifices completeness (the guarantee that an algorithm will terminate with a solution, if one exists). Beam search is not optimal (that is, there is no guarantee that it will find the best solution).\nIn general, beam search returns the first solution found. Beam search for machine translation is a different case: once reaching the configured maximum search depth (i.e. translation length), the algorithm will evaluate the solutions found during search at various depths and return the best one (the one with the highest probability).\nThe beam width can either be fixed or variable. One approach that uses a variable beam width starts with the width at a minimum. If no solution is found, the beam is widened and the procedure is repeated."
-      },
-      {
-        "term": "base pair",
-        "definition": "complementary nucleotide in a DNA sequence. Thymine (T) is complementary to adenine (A) and guanine (G) is complementary to cytosine (C). "
-      },
-      {
         "term": "capillary electrophoresis genetic analyzer",
         "definition": "insturment that applies an electrical field to a capilary loaded with a sample so that the negatively charged DNA fragments move toward the positive electrode. The speed at which a DNA fragment moves through the medium is inversely proportional to its molecular weight. This process of electrophoresis can separate the extension products by size at a resolution of one base."
-      },
-      {
-        "term": "base spacing",
-        "definition": "the number of data points from one peak to the next. A negative\nspacing value or a spacing value shown in red indicates a problem\nwith your samples, and/or the analysis parameters."
-      },
-      {
-        "term": "mobility shift",
-        "definition": "electrophoretic mobility changes imposed by the presence of different fluorescent dye molecules associated with differently labeled reaction extension products."
-      },
-      {
-        "term": "Exemplary commercial CE devices",
-        "definition": "include the Applied Biosystems, Inc. (ABI) genetic analyzer models 310 (single capillary), 3130 (4 capillary), 3130xL (16 capillary), 3500 (8 capillary), 3500xL (24 capillary), 3730 (48 capillary), and 3730xL (96 capillary), the Agilent 7100 device, Prince Technologies, Inc.'s PrinCE™ Capillary Electrophoresis System, Lumex, Inc.'s Capel-105™ CE system, and Beckman Coulter's P/ACE™ MDQ systems, among others."
-      },
-      {
-        "term": "basecall",
-        "definition": " then assigning a nucleotide base to each peak (A, C, G, T, or N) of the fluorescence signal."
-      },
-      {
-        "term": "noise",
-        "definition": "average background fluorescent intensity for each dye."
-      },
-      {
-        "term": "variant",
-        "definition": "bases where the consensus sequence differs from the reference sequence that is provided."
-      },
-      {
-        "term": "mixed base",
-        "definition": "One-base positions that contain 2, 3, or 4 bases. These bases are assigned the appropriate IUB code."
-      },
-      {
-        "term": "polymerase",
-        "definition": "an enzyme that catalyzes polymerization. DNA and RNA polymerases build single‐stranded DNA or RNA (respectively) from free nucleotides, using another single‐stranded DNA or RNA as the template."
-      },
-      {
-        "term": "polymerase slippage",
-        "definition": "is a form of mutation that leads to either a trinucleotide or dinucleotide expansion or contraction during DNA replication. A slippage event normally occurs when a sequence of repetitive nucleotides (tandem repeats) are found at the site of replication. Tandem repeats are unstable regions of the genome where frequent insertions and deletions of nucleotides can take place."
       },
       {
         "term": "heterozygous insertion deletion variant",
         "definition": "see single nucleotide polymorphism"
       },
       {
-        "term": "amplicon",
-        "definition": "the product of a PCR reaction. Typically, an amplicon is a short piece of DNA."
+        "term": "Exemplary commercial CE devices",
+        "definition": "include the Applied Biosystems, Inc. (ABI) genetic analyzer models 310 (single capillary), 3130 (4 capillary), 3130xL (16 capillary), 3500 (8 capillary), 3500xL (24 capillary), 3730 (48 capillary), and 3730xL (96 capillary), the Agilent 7100 device, Prince Technologies, Inc.'s PrinCE™ Capillary Electrophoresis System, Lumex, Inc.'s Capel-105™ CE system, and Beckman Coulter's P/ACE™ MDQ systems, among others."
+      },
+      {
+        "term": "mixed base",
+        "definition": "One-base positions that contain 2, 3, or 4 bases. These bases are assigned the appropriate IUB code."
+      },
+      {
+        "term": "polymerase slippage",
+        "definition": "is a form of mutation that leads to either a trinucleotide or dinucleotide expansion or contraction during DNA replication. A slippage event normally occurs when a sequence of repetitive nucleotides (tandem repeats) are found at the site of replication. Tandem repeats are unstable regions of the genome where frequent insertions and deletions of nucleotides can take place."
+      },
+      {
+        "term": "image signal",
+        "definition": "a number that indicates the intensity of the fluorescence from one\nof the dyes used to identify bases during a data run. Signal strength\nnumbers are shown in the Annotation view of the sample file."
+      },
+      {
+        "term": "Sanger Sequencer",
+        "definition": "a DNA sequencing process that takes advantage of the ability of DNA polymerase to incorporate 2´,3´-dideoxynucleotides—nucleotide base analogs that lack the 3´-hydroxyl group essential in phosphodiester bond formation. Sanger dideoxy sequencing requires a DNA template, a sequencing primer, DNA polymerase, deoxynucleotides (dNTPs), dideoxynucleotides (ddNTPs), and reaction buffer. Four separate reactions are set up, each containing radioactively labeled nucleotides and either ddA, ddC, ddG, or ddT. The annealing, labeling, and termination steps are performed on separate heat blocks. DNA synthesis is performed at 37°C, the temperature at which DNA polymerase has the optimal enzyme activity. DNA polymerase adds a deoxynucleotide or the corresponding 2´,3´-dideoxynucleotide at each step of chain extension. Whether a deoxynucleotide or a dideoxynucleotide is added depends on the relative concentration of both molecules. When a deoxynucleotide (A, C, G, or T) is added to the 3´ end, chain extension can continue. However, when a dideoxynucleotide (ddA, ddC, ddG, or ddT) is added to the 3´ end, chain extension 4 DNA Sequencing by Capillary terminates . Sanger dideoxy sequencing results in the formation of extension products of various lengths terminated with dideoxynucleotides at the 3´ end."
+      },
+      {
+        "term": "basecall",
+        "definition": " then assigning a nucleotide base to each peak (A, C, G, T, or N) of the fluorescence signal."
+      },
+      {
+        "term": "base spacing",
+        "definition": "the number of data points from one peak to the next. A negative\nspacing value or a spacing value shown in red indicates a problem\nwith your samples, and/or the analysis parameters."
+      },
+      {
+        "term": "single nucleotide polymorphism",
+        "definition": "a variation in a single base pair in a DNA sequence."
+      },
+      {
+        "term": "noise",
+        "definition": "average background fluorescent intensity for each dye."
+      },
+      {
+        "term": "pure base",
+        "definition": "assignment mode for a base caller, where the base caller determines an A, C, G, and T to a position instead of a variable."
       },
       {
         "term": "raw data",
         "definition": "a multicolor graph displaying the fluorescence intensity (signal) collected for each of the four fluorescent dyes."
+      },
+      {
+        "term": "quality values",
+        "definition": "an estimate (or prediction) of the likelihood that a given basecall is in error. Typically, the quality value is scaled following the convention established by the phred program: QV = –10 log10(Pe), where Pe stands for the estimated probability that the call is in error. Quality values are a measure of the certainty of the base calling and consensus-calling algorithms. Higher values correspond to lower chance of algorithm error. Sample quality values refer to the perbase quality values for a sample, and consensus quality values are per-consensus quality values."
+      },
+      {
+        "term": "variant",
+        "definition": "bases where the consensus sequence differs from the reference sequence that is provided."
+      },
+      {
+        "term": "base pair",
+        "definition": "complementary nucleotide in a DNA sequence. Thymine (T) is complementary to adenine (A) and guanine (G) is complementary to cytosine (C). "
+      },
+      {
+        "term": "separation or sieving media",
+        "definition": "include gels, however non-gel liquid polymers such as linear polyacrylamide, hydroxyalkylcellulose (HEC), agarose, and cellulose acetate, and the like can be used. Other separation media that can be used for capillary electrophoresis include, but are not limited to, water soluble polymers such as poly(N,N′-dimethylacrylamide)(PDMA), polyethylene glycol (PEG), poly(vinylpyrrolidone) (PVP), polyethylene oxide, polysaccharides and pluronic polyols; various poly(vinylalcohol) (PVAL)-related polymers, polyether-water mixture, lyotropic polymer liquid crystals, among others."
+      },
+      {
+        "term": "amplicon",
+        "definition": "the product of a PCR reaction. Typically, an amplicon is a short piece of DNA."
+      },
+      {
+        "term": "beam search",
+        "definition": "a heuristic search algorithm that explores a graph by expanding the most promising node in a limited set. Beam search is an optimization of best-first search that reduces its memory requirements. Best-first search is a graph search which orders all partial solutions (states) according to some heuristic. But in beam search, only a predetermined number of best partial solutions are kept as candidates.[1] It is thus a greedy algorithm.\nBeam search uses breadth-first search to build its search tree. At each level of the tree, it generates all successors of the states at the current level, sorting them in increasing order of heuristic cost.[2] However, it only stores a predetermined number, β, of best states at each level (called the beam width). Only those states are expanded next. The greater the beam width, the fewer states are pruned. With an infinite beam width, no states are pruned and beam search is identical to breadth-first search. The beam width bounds the memory required to perform the search. Since a goal state could potentially be pruned, beam search sacrifices completeness (the guarantee that an algorithm will terminate with a solution, if one exists). Beam search is not optimal (that is, there is no guarantee that it will find the best solution).\nIn general, beam search returns the first solution found. Beam search for machine translation is a different case: once reaching the configured maximum search depth (i.e. translation length), the algorithm will evaluate the solutions found during search at various depths and return the best one (the one with the highest probability).\nThe beam width can either be fixed or variable. One approach that uses a variable beam width starts with the width at a minimum. If no solution is found, the beam is widened and the procedure is repeated."
+      },
+      {
+        "term": "primer",
+        "definition": "A short single strand of DNA that serves as the priming site for DNA polymerase in a PCR reaction."
+      },
+      {
+        "term": "polymerase",
+        "definition": "an enzyme that catalyzes polymerization. DNA and RNA polymerases build single‐stranded DNA or RNA (respectively) from free nucleotides, using another single‐stranded DNA or RNA as the template."
+      },
+      {
+        "term": "mobility shift",
+        "definition": "electrophoretic mobility changes imposed by the presence of different fluorescent dye molecules associated with differently labeled reaction extension products."
+      },
+      {
+        "term": "sample data",
+        "definition": "the output of a single lane or capillary on a sequencing instrument. Sample data is entered into Sequencing Analysis, SeqScape, and other sequencing analysis software."
       }
     ]
   },
